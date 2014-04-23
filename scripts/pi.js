@@ -91,7 +91,7 @@ $(document).ready(function() {
 			$("#msg").empty();
 		});
 		$("#streakBoard").fadeOut(500);
-		$("#timer").fadeOut(200, function() {console.log("timer");}, function() {
+		$("#timer").fadeOut(200, function() {
 			$("#timer").css({width: "100%"});
 		});
 
