@@ -22,7 +22,7 @@ $(document).ready(function() {
 	reset();
 
 	$("#retry").click(function() {
-				reset();
+		reset();
 	});
 
 	$(document).on("contextmenu", function(event) { 
@@ -58,7 +58,6 @@ $(document).ready(function() {
 
 	var start = function() {
 		if (!alive) {
-	    // $(".countdown").html("2");
 	    alive = true;
 	    activateTracker();
 	    showStreaks();
